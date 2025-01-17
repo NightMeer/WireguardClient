@@ -1,5 +1,6 @@
 services:
   wireguardclient:
     image: ghcr.io/nightmeer/wireguardclient:latest
+    privileged: true
     volumes:
       - ./wireguard/config:/config

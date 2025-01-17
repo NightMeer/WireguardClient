@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 cp /config/wg0.conf /etc/wireguard/wg0.conf
 
